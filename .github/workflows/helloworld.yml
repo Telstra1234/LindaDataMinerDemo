@@ -27,7 +27,7 @@ jobs:
         uses: SkylineCommunications/Skyline-DataMiner-Deploy-Action@v1.0.29
         with:
           api-key: ${{ secrets.DM_SECRET }}
-          solution-path: AutomationScript.sln
+          solution-path: LindaDataMinderDemo.sln
           artifact-name: EmpowerHelloWorld
           version: 1.0.1
           build-number: ${{ github.run_number }}
