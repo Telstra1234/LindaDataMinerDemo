@@ -23,9 +23,8 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - uses: actions/checkout@v3
-
       - name: Skyline DataMiner Deploy Action
-      uses: SkylineCommunications/Skyline-DataMiner-Deploy-Action@v1.0.29
+    uses: SkylineCommunications/Skyline-DataMiner-Deploy-Action@v1.0.29
       with:
             api-key: ${{ secrets.DATAMINER_DEPLOY_KEY }}
             solution-path: AutomationScript.sln
